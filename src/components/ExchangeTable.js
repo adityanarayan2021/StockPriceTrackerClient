@@ -9,7 +9,6 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 
 const ExchangeTable = ({ data }) => {
-    console.log('data ==>', data)
   const columns = useMemo(
     () => [
       {
